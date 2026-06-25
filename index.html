@@ -18,48 +18,19 @@ body{
     color:#333;
 }
 
-header{
-    display:none;
-}
-
-header img{
-    width:450px;
-    max-width:95%;
-}
-
-.hero{
-    background:
-    linear-gradient(rgba(0,0,0,.45), rgba(0,0,0,.45)),
-    url('BlankLogo.png');
-    background-size:contain;
-    background-position:center;
-    background-repeat:no-repeat;
-    background-color:#111;
-    min-height:700px;
-    display:flex;
-    align-items:center;
-    justify-content:center;
-    color:white;
+.logo-top{
+    background:#111;
     text-align:center;
+    padding:40px 20px;
 }
 
-.hero h1{
-    font-size:4rem;
-    margin-bottom:20px;
-    text-shadow:3px 3px 8px rgba(0,0,0,.8);
+.logo-top img{
+    width:500px;
+    max-width:95%;
+    display:block;
+    margin:auto;
 }
 
-.hero p{
-    font-size:1.3rem;
-}
-
-.hero-box{
-    background:rgba(0,0,0,.65);
-    display:inline-block;
-    padding:40px;
-    border-radius:15px;
-
-}
 .phone{
     display:inline-block;
     margin-top:25px;
@@ -80,8 +51,9 @@ header img{
 
 .section h2{
     text-align:center;
-    margin-bottom:40px;
     color:#0b7d23;
+    margin-bottom:40px;
+    font-size:2rem;
 }
 
 .services{
@@ -100,7 +72,7 @@ header img{
 
 .card h3{
     color:#0b7d23;
-    margin-bottom:10px;
+    margin-bottom:15px;
 }
 
 .contact{
@@ -111,8 +83,12 @@ header img{
 }
 
 .contact h2{
-    color:white;
     margin-bottom:20px;
+}
+
+.contact h1{
+    margin:20px 0;
+    color:#0b7d23;
 }
 
 footer{
@@ -126,35 +102,12 @@ footer{
 
 <body>
 
-<header></header>
+<section class="logo-top">
+    <img src="NewLogo2026.png" alt="Moultrie Multi-Services LLC Logo">
 
-
-    <div class="hero-box">
-
-        <h1>Moultrie Multi-Services LLC</h1>
-
-        <p>Licensed & Insured</p>
-
-        <p>Lawn Care • Hauling • Handyman • Dump Truck Rentals</p>
-
-        <a class="phone" href="tel:8434802479">
-            Call Now: 843-480-2479
-        </a>
-
-    </div>
-
-</section>
-
-    <div class="hero-box">
-        <h1>Moultrie Multi-Services LLC</h1>
-        <p>Licensed & Insured</p>
-        <p>Lawn Care • Hauling • Handyman • Dump Truck Rentals</p>
-
-        <a class="phone" href="tel:8434802479">
-            Call Now: 843-480-2479
-        </a>
-    </div>
-
+    <a class="phone" href="tel:8434802479">
+        Call Now: 843-480-2479
+    </a>
 </section>
 
 <section class="section">
@@ -164,7 +117,7 @@ footer{
 
         <div class="card">
             <h3>Lawn Care</h3>
-            <p>Professional mowing, trimming, edging and property maintenance.</p>
+            <p>Professional mowing, trimming, edging, and property maintenance.</p>
         </div>
 
         <div class="card">
@@ -174,12 +127,12 @@ footer{
 
         <div class="card">
             <h3>Hauling</h3>
-            <p>Debris removal, clean-outs, gravel, mulch and material hauling.</p>
+            <p>Debris removal, gravel, mulch, clean-outs, and material hauling.</p>
         </div>
 
         <div class="card">
             <h3>Handyman Services</h3>
-            <p>Repairs, maintenance, installations and general property improvements.</p>
+            <p>Repairs, maintenance, installations, and property improvements.</p>
         </div>
 
     </div>
@@ -187,15 +140,12 @@ footer{
 
 <section class="contact">
     <h2>Get Your Free Estimate</h2>
-    <p>Call or text us today.</p>
-
     <h1>843-480-2479</h1>
-
     <p>Cross, South Carolina</p>
 </section>
 
 <footer>
-    © 2026 Moultrie-Multi Services LLC
+    © 2026 Moultrie Multi-Services LLC
 </footer>
 
 </body>
