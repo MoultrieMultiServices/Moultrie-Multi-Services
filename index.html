@@ -19,10 +19,7 @@ body{
 }
 
 header{
-    background:#111;
-    color:white;
-    text-align:center;
-    padding:40px 20px;
+    display:none;
 }
 
 header img{
@@ -32,14 +29,18 @@ header img{
 
 .hero{
     background:
-    linear-gradient(rgba(0,0,0,.55), rgba(0,0,0,.55)),
+    linear-gradient(rgba(0,0,0,.45), rgba(0,0,0,.45)),
     url('BlankLogo.png');
-    background-size:cover;
+    background-size:contain;
     background-position:center;
     background-repeat:no-repeat;
+    background-color:#111;
+    min-height:700px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
     color:white;
     text-align:center;
-    padding:180px 20px;
 }
 
 .hero h1{
