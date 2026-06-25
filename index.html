@@ -31,24 +31,34 @@ header img{
 }
 
 .hero{
-    background:linear-gradient(rgba(0,0,0,.65), rgba(0,0,0,.65)),
-    url('https://images.unsplash.com/photo-1500382017468-9049fed747ef');
+    background:
+    linear-gradient(rgba(0,0,0,.55), rgba(0,0,0,.55)),
+    url('BlankLogo.png');
     background-size:cover;
     background-position:center;
+    background-repeat:no-repeat;
     color:white;
     text-align:center;
-    padding:100px 20px;
+    padding:180px 20px;
 }
 
 .hero h1{
-    font-size:3rem;
+    font-size:4rem;
     margin-bottom:20px;
+    text-shadow:3px 3px 8px rgba(0,0,0,.8);
 }
 
 .hero p{
     font-size:1.3rem;
 }
 
+.hero-box{
+    background:rgba(0,0,0,.65);
+    display:inline-block;
+    padding:40px;
+    border-radius:15px;
+
+}
 .phone{
     display:inline-block;
     margin-top:25px;
@@ -115,18 +125,36 @@ footer{
 
 <body>
 
-<header>
-    <img src="LOGOMMS.png" alt="Moultrie Multi Services Logo">
-</header>
+<header></header>
 
 <section class="hero">
-    <h1>Moultrie-Multi Services LLC</h1>
-    <p>Licensed & Insured</p>
-    <p>Lawn Care • Hauling • Handyman • Dump Truck Rentals</p>
 
-    <a class="phone" href="tel:8434802479">
-        Call Now: 843-480-2479
-    </a>
+    <div class="hero-box">
+
+        <h1>Moultrie Multi-Services LLC</h1>
+
+        <p>Licensed & Insured</p>
+
+        <p>Lawn Care • Hauling • Handyman • Dump Truck Rentals</p>
+
+        <a class="phone" href="tel:8434802479">
+            Call Now: 843-480-2479
+        </a>
+
+    </div>
+
+</section>
+
+    <div class="hero-box">
+        <h1>Moultrie Multi-Services LLC</h1>
+        <p>Licensed & Insured</p>
+        <p>Lawn Care • Hauling • Handyman • Dump Truck Rentals</p>
+
+        <a class="phone" href="tel:8434802479">
+            Call Now: 843-480-2479
+        </a>
+    </div>
+
 </section>
 
 <section class="section">
